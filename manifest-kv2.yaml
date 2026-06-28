@@ -146,7 +146,7 @@ spec:
       serviceAccountName: vault-auth
       containers:
       - name: bankapp
-        image: adijaiswal/bankapp:v20
+        image: adildal/bankapp
         ports:
         - containerPort: 8080
         env:
